@@ -42,10 +42,11 @@ class Calculator1{
         float div_result = calc.division(operand_1,operand_2);
         System.out.println("Result of Division is: " + div_result);
         
-        // float sqr_result = calc.square(operand_1);
-        // System.out.println("Result of Square is: " + sqr_result);
+        Extended_calci calc1 = new Extended_calci();
+        float sqr_result = calc1.square(operand_1);
+        System.out.println("Result of Square is: " + sqr_result);
 
-        // float cube_result = calc.cube(operand_1);
-        // System.out.println("Result of cube is: " + cube_result);
+        float cube_result = calc1.cube(operand_1);
+        System.out.println("Result of cube is: " + cube_result);
     }
 }
